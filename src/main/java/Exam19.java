@@ -7,10 +7,11 @@ public class Exam19 {
         colors.add("Black");
         colors.add("White");
         colors.add(0, "Green");
-        colors.add("Red");
+        colors.add(1, "Red");
 
         //set() method
         colors.set(0, "Blue");
+        colors.set(1, "Grey");
 
         System.out.println(colors);
     }
